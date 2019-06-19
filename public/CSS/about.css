@@ -1,0 +1,22 @@
+.app-details h2{
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: .3em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-box {
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+ }
+
+.body-box{
+    padding:10px;
+}
+
+.app-details{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+}

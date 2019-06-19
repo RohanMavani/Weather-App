@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Material design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel='stylesheet' href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/CSS/about.css">
+
+    <title>Weather App</title>
+</head>
+
+<body>
+    <header>
+        {{>header}}
+    </header>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <main class="main-box">
+                <div class="body-box">
+                    <article class="app-details">
+                        <h2>About the app</h2>
+                        <p>The Weather app is built using JavaScript runtime enviornment Node.js and amazing front-end
+                            frameworks like Bootstrap and Material Design.
+                            The application uses Handlebars to create dynamic and semantic web pages.
+                            There are two APIs used by the application: mapbox.com and darksky.net. You can find more
+                            details below.</p>
+                        <h2>Handlebars</h2>
+                        <h3>About</h3>
+                        <p>Handlebars provides the power necessary to let you build semantic templates effectively with
+                            no
+                            frustration. Handlebars is largely compatible with Mustache templates. In most cases it is
+                            possible to swap out Mustache with Handlebars and continue using your current templates.
+                            <br /> The official Handlebars docs site at <a href="http://www.handlebarsjs.com"
+                                rel="nofollow">http://www.handlebarsjs.com</a> and the live demo at
+                            <a href="http://tryhandlebarsjs.com/" rel="nofollow">http://tryhandlebarsjs.com/</a></p>
+                        <h3>Performance</h3>
+                        <p>In a rough performance test, precompiled Handlebars.js templates (in the original version of
+                            Handlebars.js) rendered in about half the time of Mustache templates. It would be a shame if
+                            it
+                            were any other way, since they were precompiled, but the difference in architecture does
+                            have
+                            some big performance advantages. Justin Marney, a.k.a. gotascii, confirmed that with an
+                            independent test. The rewritten Handlebars (current version) is faster than the old version,
+                            with many performance tests being 5 to 7 times faster than the Mustache equivalent.</p>
+                        <h2>Mapbox API</h2>
+                        <p>Mapbox is the location data platform for mobile and web applications. For more details, visit
+                            <a href="https://www.mapbox.com/" rel="nofollow">https://www.mapbox.com/</a></p>
+                        <h2>Darksky API</h2>
+                        <p>The Dark Sky Company specializes in weather forecasting and visualization. For more details,
+                            visit <a href="https://darksky.net" rel="nofollow">https://darksky.net</a> </p>
+                    </article>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        {{>footer}}
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+</html>

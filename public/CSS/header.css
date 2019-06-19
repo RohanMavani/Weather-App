@@ -1,0 +1,22 @@
+.title{
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center
+}
+
+.title h1{
+    padding:8px;
+}
+
+.navbar{
+    justify-content: center
+}
+
+.navbar li a{
+    color: #bdc3c7;
+}
+
+.navbar li a:hover{
+    color:#7f8c8d
+}
+

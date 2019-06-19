@@ -1,0 +1,49 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+
+#main_box{
+    margin:15px;
+    padding:15px;
+    width: 100%;
+    font-family:'Roboto', sans-serif;
+}
+
+#location-message, #weather-message{
+    font-size: 15px;
+}
+
+.form-control{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.submit_button{
+    padding-left: 0px;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+    background-color: #34495e;
+}
+
+#location-message, #weather-message{
+    text-align: center
+}
+
+.page-footer{
+    position: fixed;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #main_box {
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+    .content{
+        padding: 17px;
+    }
+ }
+
+ 
