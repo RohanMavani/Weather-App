@@ -14,6 +14,9 @@ const staticPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, "../templates/views")
 const partialPath = path.join(__dirname, "../templates/partials")
 
+// get the port 
+const port = process.env.PORT || 3000
+
 // set up the handlebars engine and views path
 app.set('view engine', 'hbs')
 app.set('views', viewsPath )
@@ -62,7 +65,7 @@ app.get('/about', function(req, res){
     res.render('about')
 })
 
-app.listen(3000, () => {
-    console.log("You are on port 3000......")
+app.listen(port, () => {
+    console.log("You are on port " + port)
 })
 
